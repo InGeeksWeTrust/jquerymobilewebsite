@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>InGeeksWeTrust</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+		<link rel="stylesheet" href="themes.project.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+		<link href="styles/custom.css" rel="stylesheet" type="text/css">
+		<link href="styles/custom.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+	</head>
+<body>
+
+<div id="home" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="panel" id="myPanel">
+		<h2>Main Menu</h2>
+		<ul data-role="listview" data-theme="b">
+			<li class="menu"><a href="#home">Home</a></li>
+			<li class="menu"><a href="#favorites">Game Favorites</a></li>
+			<li class="menu"><a href="#news">News/Articles</a></li>
+			<li class="menu"><a href="#links">Links</a></li>
+			<li class="menu"><a href="#contact">Contact</a></li>
+			<li class="menu"><a href="#about">About</a></li>
+			<li class="menu"><a href="#feedback">Feedback</a></li>
+		</ul>
+	<p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+</div>
+
+	<div data-role="header" data-theme="b">
+	  <div class="logo"><img src="images/header1.png" width="388" height="60" alt="ingeekswetrust header"/></div>
+	</div>
+
+  <div data-role="header">
+    <h1>InGeeksWeTrust</h1>
+		<a href="#myPanel" class="ui-btn ui-btn-inline">Menu</a>
+	</div>
+	<div data-role="content">
+		<p align="center">Welcome to InGeeksWeTrust. All about</p>
+		<p align="center">video games, retro gaming, RPG's and more!</p>
+		<br>
+		<br>
+		<p align="center">I plan to have some reviews showing my</p>
+		<p align="center">top 10 favorite games. I plan to start with</p>
+		<p align="center">the NES first, then probably do SNES.</p>
+		<p align="center">I plan on also doing the same for newer consoles,</p>
+		<p align="center">so anything from Playstation/Playstation 2, to Xbox One.</p>
+		<p align="center">This should be pretty fun. I hope you all enjoy!</p>
+	</div>
+
+	<div data-role="footer" data-theme="b">
+		<h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+<div id="favorites" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+	  <h1>Favorite Video Games</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Welcome to My Favorites</h3>
+	  <p>This section will show my top 10 list for a variety of systems. You can choose a console of your choice below:</p>
+	</div>
+
+	<div data-role="content">
+		<ul data-role="listview" data-theme="b" data-filter="true">
+			<li><a href="#NES">Nintendo Entertainment System</a></li>
+      <li><a href="#SNES">Super Nintendo</a></li>
+			<li><a href="#psx">Playstation</a></li>
+		</ul>
+	</div>
+
+	<div data-role="footer" data-theme="b">
+	  <h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+<div id="news" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>News, Upates, and Articles</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Welcome to my News</h3>
+	  <p>Currently this section will be used to provide links to important articles in the video game world</p>
+		<p>I also will be posting my own thoughts, opinions, and news or planned updates</p>
+		<br>
+		<h3>NES Mini</h3>
+		<br>
+		<p>Nintendo has brought back a slice of nostalgia pie with the NES Classic Edition.</p>
+		<p>It's a hand sized recreation of the original NES console. What's great is it actually comes with 30 games already built in.</p>
+		<p>The NES Classic Edition is definitely worth purchasing if you want to have a taste of some of the classics, without having to hunt them down at yard sales, or ebay.</p>
+		<p>One of my favorite things about it, is it can plug right into an HD television, and looks picture perfect without a noticeable lag.</p>
+		<p>The other feature that the original Nintendo console was missing, is the ability to save. Rather than starting from the very begininning, you can actually save your place and load it again later.</p>
+		<p>My only dissapointment, is the fact that you can't purchase more games, or donwload them onto the NES Classic Edition.</p>
+		<p>This means that the 30 games already pre-loaded on the console are all you get. Nintendo could have made use of the</p>
+		<p>store they have on the Wii and Wii-U	that allows you to purchase retro games.</p>
+		<p>However, without those disagreements aside, I would highly recommend this to anyone who's a fan of retro gaming.</p>
+		<p>This is most definitely a love letter to Nintendo’s oldest fans.</p>
+
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+<div id="links" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>Recommended Links</h1>
+	</div>
+	<div data-role="content">
+	  <h3>My Recommendations</h3>
+		<br>
+		<p>I've included some of my personal favorite links below for anything video game related:</p>
+		<p><a href="http://www.ign.com">IGN Video Game Reviews and News</a></p>
+		<p><a href="http://www.thatvideogameblog.com/">That Video Game Blog</a></p>
+		<p><a href="http://kotaku.com/">Kotaku Video Game Review Site</a></p>
+		<p><a href="http://www.retrogamer.net/">Retro Gaming Blog</a></p>
+		<p><a href="https://www.reddit.com/r/retrogaming/">Reddit Retro Gaming Sub-reddit</a></p>
+		<p><a href="http://cinemassacre.com/">Cinemassacre - Retro video game reviews, and funny videos</a></p>
+	</div>
+	<div data-role="footer" data-theme="b" >
+	  <h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+<div id="contact" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+		<h1>Contact</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Contact Info</h3>
+		<br>
+		<p>Questions or concerns? Please reach out to me below:</p>
+	  <p>Email: ingeekswetrust55@gmail.com</p>
+
+
+  </div>
+	<div data-role="footer" data-theme="b" >
+	  <h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+<div id="about" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>About</h1>
+	</div>
+	<div data-role="content">
+	  <h3>About Me</h3>
+		<br>
+		<p>My name is Peter, and I am currently working towards a B.S. in Computer Science</p>
+		<p>I plan to become a software development engineer once I graduate.</p>
+		<p>I've always had an interest in computers, video games, role playing games like Dungeons and Dragons, Pathfinder, etc.</p>
+		<p>I created this to share some of my interests and to test out creating something using jQuery Mobile framework.</p>
+	</div>
+
+	<div data-role="footer" data-theme="b" >
+	  <h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+
+<div id="feedback" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>Feedback Form</h1>
+	</div>
+	<div data-role="content">
+		<h2>Feedback</h2>
+		<br>
+		<p>Please provide feedback and fill in the boxes below.</p>
+		<br>
+		<form action="form.php" method="post">
+			<label for="fname">First Name:</label>
+			<input type="text" name="fname" id="fname" data-clear-btn="true">
+			<label for="lname">Last Name:</label>
+			<input type="text" name="lname" id="lname" data-clear-btn="true">
+			<label for="email">Email Address:</label>
+			<input type="text" name="email" id="email" data-clear-btn="true">
+			<label for="recc">Game Review Reccommendation:</label>
+			<input type="text" name="recc" id="recc" data-clear-btn="true">
+			<label for="fback">Feedback/Comments:</label>
+			<input type="text" name="fback" id="fback" data-clear-btn="true">
+				<input type="reset" value="Reset Button">
+				<input type="submit" value="Submit Button">
+			</form>
+	</div>
+		<div data-role="footer" data-theme="b" >
+			<h4>&copy; 2017 InGeeksWeTrust</h4>
+		</div>
+</div>
+
+<div id="NES" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>Nintendo Entertainment System</h1>
+	</div>
+	<div data-role="content" data-filter="true">
+		<h3>My Favorite NES games</h3>
+		<br>
+		<p> I've compiled a list of my top 10 favorite NES games.</p>
+		<p>A little background, this was my first gaming console as a kid in the 1980's, and my favorite. So I want to briefly review these games as it is my first experience with a gaming console.</p>
+		<p>I have many memories coming home from school turning on the Nintendo and trying to beat something like Contra or Castlevania.</p>
+		<p>Often these games were incredibly frustrating because of how difficult they could be, but they were always fun and very memorable.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">10. Teenage Mutant Ninja Turtles</div></div>
+		</div>
+		<img src="images/ninja_turtles.jpg" alt="Ninja Turtles" style="width:150px;height:206px;">
+
+		<p>This game was based on the comic and cartoon series of the same name. I remember renting this game as a kid, and it was an extremely difficult game.</p>
+		<p>There isn't a huge issue with the controls, however the game itself is notorious for being difficult. You start of by picking a Ninja Turtle each with their trademark weapon from the series.</p>
+		<p>Each turtle only has one life, so if you happen to miss a jump or take too many hits, you have to pick another turtle to play as.</p>
+		<p>Once you use up each life, the game is over and you have to start over from the very beginning. I never made it past the third level which is a timed level.</p>
+		<p>I definitely consider it a classic regardless of some of the poor mechanics, and I have it on my backlog of games to try and beat.</p>
+		<br>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">09. Battletoads</div></div>
+		</div>
+		<img src="images/Battletoads.png" alt="Battletoads" style="width:150px;height:206px;">
+
+		<p>Few games have caused rage controller smashing moments as Battletoads. It's a beat'em up style game that you can play with a friend.</p>
+		<p>However, you can injure your co-op partner which leads to many many accidents. The second level has you easily knocking your buddy off the bungie rope and taking a whole life.</p>
+		<p>If you're lucky to get the third level with two people, you have to go through the "Turbo Tunnel" which has you on a speed bike trying to jump over blocks that only give you a few seconds to react</p>
+		<p>Playing it alone is definitely fun, but still a difficult game. Although it's a difficult game, it's extremely enjoyable, and hard to put down. I remember having to start over so many times, but each time I was determined to get further than I did the last time.</p>
+		<p>I never did beat the game, but I got to the 3rd to last level of the game and haven't managed to get further.</p>
+		<p>Although the game was brutally hard, it's also extremely fun and hilarious when you accidentally hit your friend when you meant to hit an enemy</p>
+		<p>The constant "oops sorry about that!" will never cease to get old!</p>
+		<br>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">08. Zelda II. The Adventure of Link</div></div>
+		</div>
+		<img src="images/zelda2.jpg" alt="Zelda 2" style="width:150px;height:206px;">
+		<p>Zelda II deviates from the gameplay established in the first game. Zelda II primarily went for a 2D side-scroller style rather than the top-down style of its predecessor. and included role-playing elements like experience points, as well as a variety of items and weapons to acquire. Zelda II is a deep adventure, full of secrets to find and dungeons to delve, with plenty of enemies to give you a ridiculously hard time. It definitely is a hard game, but it's a great entry into the Zelda series. I enjoyed the RPG aspects of actually being able to visit towns and doing quests for the NPC's. In some ways, that part is a bit reminiscent of Castlevania II. Simon's Quest.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">07. Final Fantasy</div></div>
+		</div>
+		<img src="images/FF.jpg" alt="Final Fantasy" style="width:150px;height:206px;">
+		<p>Final Fantasy is definitely a classic Role Playing Game, and one of the earlier ones to gain popularity. It provided players with a great amount of customization such as creating their party adventurers, choosing their class (warrior, rogue, red mage, white mage, black mage), as well as naming them. There's equipment to purchase in town for your characters, and plenty of adventures to be found. It's a difficult game of course, but probably one of my favorite RPG games. It would go on to continue on the famous series that is well known from the SNES, Playstation 1 and 2 era, all the way to the latest Final Fantasy XV om the Playstation 4 and Xbox One. This slice of retro pie is where it all began, and would bring RPG's to a wider audience here in North America outside of Japan.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">06. Super Mario Brothers 2</div></div>
+		</div>
+		<img src="images/mario2.jpg" alt="Mario 2" style="width:150px;height:206px;">
+		<p>Super Mario Brothers 2, is different from any of the other Mario games. First, the game world is completely seperate from anything in the first game, or any other future game to come after this entry in the series. The next difference is that instead of defeating an enemy by jumping on them, you could actually jump on them and pick them up. You could pick up vegetables and throw them at enemies, and for the first time, you could pick from a wide variety of characters. The controls are smooth, the action and platforming is fun and engaging, the music is great, and overall, it's just flat out fun! Although, not my favorite Mario game on the NES, it is up there on my list.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">05. Super Sprint</div></div>
+		</div>
+		<img src="images/supersprint.jpg" alt="Super Sprint" style="width:150px;height:206px;">
+		<p>This is probably one of my favorite racing games on the NES. Although there are other great ones like Micro Machines, R.C. Pro AM II, and Rad Racer. This was one of the first racing games I played, and is very hard to put down. Not only do you have to avoid the other cars on the track, but you have to avoid oil puddles that will make you spin out of control and slip and slide, there's tornados that will spin your car out of control, all the while trying to come in first plaec. After each course, the computer controlle cars get faster, and tend to drive a lot better without crashing as often or getting caught up by the traps on the track. You can collect power ups in the form of wrenches to upgrade your car at the end of each level. Hands down one of my favorite racing games in the classic era, and still holds up to this day.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">04. Super Mario Brothers</div></div>
+		</div>
+		<img src="images/mario.png" alt="Mario" style="width:150px;height:206px;">
+		<p>This one is of course a classic. The original Super Mario game would become one of the most popular platforming games, as well as start one of the most well known and popular series on the Nintendo for console generations to come. The difficulty made sure not to hold your hand through this game, as getting extra lives is crucial. The nice thing is there's plenty of secrets to find. From hidden power ups and lives, to hidden pipes to go into that will act as a warp zone and allow you to skip past a few level. It only takes two hits for you to waste one of your many precious lives, although you do get 3 continues. If you burn through those, then guess what? Start over from the very beginning! This was the very first Nintendo game I played, and will always have a special place. Although, my favorite Mario game is next..</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">03. Super Mario Brothers 3</div></div>
+		</div>
+		<img src="images/mario3.jpg" alt="Mario 3" style="width:150px;height:206px;">
+		<p>My absolute favorite Mario game hands down. This game took everything from the first game and made it 20 times better. The graphics are much improved, the power ups and abilities are outrageously fun and hilarious. Who doesn't want to see Mario hopping around in a frog suit? Each world has a different theme or environment such as World 2 being in the desert, World 3 being the water world, World 4 was giant world where everything is.. well.. giant! The enemies, the blocks, everything is huge. There's plenty of secrets hidden throughout too such as the magic flutes you can collect to warp to different worlds. There's not a single complaint about this game, or anything I feel that could of been done better.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">02. The Legend of Zelda</div></div>
+		</div>
+		<img src="images/zelda.jpg" alt="Zelda" style="width:150px;height:206px;">
+		<p>This game is a great classic! The first of another future popular series. With all the secrets to find such as hidden dungeons, hidden caves to get power ups and items, this game has it all. There are plenty of enemies to fight, and castles to explore with each one having some very unique puzzles to solve. I remember the game originally came with a map which was extremely helpful to figure out where you were going in the game world. I've probably played and beaten this game a dozen times and it never gets old.</p>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">01. Castlevania</div></div>
+		</div>
+		<img src="images/castlevania.jpg" alt="Castlevania" style="width:150px;height:206px;">
+		<p>This game is one of my favorite games on the NES. It's got outstanding 8-bit music, the controls are tight, the action is fast paced and intense, and the boss battles are difficult, but oh so rewarding once you win! This is platform gaming at it's best, from the jumping mechanics, to the weapons and power ups you gain along the way. The theme is set in Dracula's castle where you fight through gouls, skeletons, giant bats, and fight bosses such as the grim reaper, Frankenstein's monster, and even Dracula himself!</p>
+
+	</div>
+	<div data-role="footer" data-theme="b" >
+		<h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+<div id="SNES" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>Super Nintendo Entertainment System</h1>
+	</div>
+	<div data-role="content" data-filter="true">
+		<h3>My Top Ten SNES Games</h3>
+		<br>
+		<p>This is my top ten favorite SNES games in order from lowest, to my absolute favorite.</p>
+		<br>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">10. Donkey Kong Country</div></div>
+		</div>
+		<img src="images/donkeykongcountry.jpg" alt="Donkey Kong" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">09. Teenage Mutant Ninja Turtles: Turtles In Time</div></div>
+		</div>
+		<img src="images/turtlestime.jpg" alt="Ninja Turtles" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">08. Super Mario Kart</div></div>
+		</div>
+		<img src="images/mariokart.jpg" alt="Mario Kart" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">07. Super Castlevania</div></div>
+		</div>
+		<img src="images/supercastlevania.jpg" alt="castlevania" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">06. Chrono Trigger</div></div>
+		</div>
+		<img src="images/chronotrigger.jpg" alt="Chrono Trigger" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">05. Super Ghouls 'n Ghosts</div></div>
+		</div>
+		<img src="images/ghoulghosts.jpg" alt="Super Ghouls 'n Ghosts" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">04. Earthworm Jim</div></div>
+		</div>
+		<img src="images/earthwormjim.jpg" alt="earthworm jim" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">03. Lufia II: Rise of the Sinistrals</div></div>
+		</div>
+		<img src="images/lufia2.jpg" alt="Lufia II" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">02. The Legend of Zelda: A Link to the Past</div></div>
+		</div>
+		<img src="images/zeldasnes.jpg" alt="Zelda link to the past" style="width:200px;height:142px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">01. Super Metroid</div></div>
+		</div>
+		<img src="images/metroid.jpg" alt="Super Metroid" style="width:200px;height:142px;">
+
+	</div>
+	<div data-role="footer" data-theme="b" >
+		<h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+
+<div id="psx" data-role="page" data-theme="b" data-add-back-btn="true">
+	<div data-role="header" data-theme="b" data-add-back-btn="true">
+		<h1>Sony Playstation</h1>
+	</div>
+	<div data-role="content" data-filter="true">
+		<h3>My Top Ten Playstation Games</h3>
+		<br>
+		<p>This is my top ten favorite Playsation games in order from lowest, to my absolute favorite.</p>
+		<br>
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">10. Metal Gear Solid</div></div>
+		</div>
+		<img src="images/metalgear.jpg" alt="metal gear solid" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">09. Ogre Battle</div></div>
+		</div>
+		<img src="images/ogrebattle.jpg" alt="ogre battle" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">08. Civilization II</div></div>
+		</div>
+		<img src="images/civilization.jpg" alt="civ II" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">07. Warcraft II</div></div>
+		</div>
+		<img src="images/warcraft.jpg" alt="warcraft" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">06. Final Fantasy 7</div></div>
+		</div>
+		<img src="images/ff7.jpg" alt="ff7" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">05. Suikoden</div></div>
+		</div>
+		<img src="images/suikoden.jpg" alt="suikoden" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">04. Resident Evil 2</div></div>
+		</div>
+		<img src="images/res2.jpg" alt="resident evil 2" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">03. Gran Turismo 2</div></div>
+		</div>
+		<img src="images/granturismo2.jpg" alt="gt2" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">02. Final Fantasy 9</div></div>
+		</div>
+		<img src="images/ff9.jpg" alt="ff9" style="width:186px;height:186px;">
+
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">01. Legend of Dragoon</div></div>
+		</div>
+		<img src="images/dragoon.jpg" alt="legend of dragoon" style="width:186px;height:186px;">
+
+
+	</div>
+	<div data-role="footer" data-theme="b" >
+		<h4>&copy; 2017 InGeeksWeTrust</h4>
+	</div>
+</div>
+
+</body>
+</html>
